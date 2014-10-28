@@ -1,0 +1,10 @@
+CREATE TABLE `annunci` (
+`id` INT( 40 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`titolo` VARCHAR( 255 ) NOT NULL ,
+`categoria` VARCHAR( 255 ) NOT NULL ,
+`provincia` VARCHAR( 255 ) NOT NULL ,
+`prezzo` VARCHAR( 255 ) NOT NULL,
+`descrizione` VARCHAR( 255 ) NOT NULL,
+`mail` VARCHAR( 255 ) NOT NULL,
+`data` DATETIME
+) ENGINE = MYISAM
