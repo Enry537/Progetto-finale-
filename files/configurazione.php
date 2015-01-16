@@ -9,7 +9,7 @@
 <?php
 // connettiamoci il nostro database
 
-$db_host = "spano.sc.unica.it/";
+$db_host = "localhost";
 $db_user = "deianaEnrico";
 $db_password = "scarabeo52";
 $db_name = "amm14_deianaEnrico";
