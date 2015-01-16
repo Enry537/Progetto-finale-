@@ -2,7 +2,7 @@
 // avviamo la sessione per continuare la precedente o crearne una nuova
 session_start();
 
-	if ( ($_GET['login'] == "success") ||  ($_GET['insert'] == "success") || ($_GET['logout'] == "success") || ($_GET['login'] == "success")) {
+	if ( ($_POST['login'] == "success") ||  ($_POST['insert'] == "success") || ($_POST['logout'] == "success") || ($_POST['login'] == "success")) {
 	header( "refresh:1;url={$_SERVER['PHP_SELF']}" ); 
 }
 
